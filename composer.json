@@ -1,0 +1,15 @@
+{
+    "name": "magyarjeti/sandbox",
+    "description": "Easy configurable vagrant environment",
+    "keywords": ["vagrant", "vm"],
+    "type": "project",
+    "homepage": "https://github.com/magyarjeti/sandbox",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magyar Jeti Zrt.",
+            "homepage": "https://github.com/magyarjeti/sandbox/contributors"
+        }
+    ],
+    "minimum-stability": "dev"
+}

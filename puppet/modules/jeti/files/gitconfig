@@ -1,0 +1,13 @@
+[core]
+    editor = vim
+    whitespace = -trailing-space
+[color]
+    ui = true
+[grep]
+    lineNumber = true
+[alias]
+    st = status -s
+    ci = commit
+    co = checkout
+    br = branch
+    hi = log --pretty=oneline

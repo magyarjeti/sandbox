@@ -1,0 +1,5 @@
+.vagrant
+composer.phar
+.DS_Store
+puppet/modules/*
+!puppet/modules/jeti

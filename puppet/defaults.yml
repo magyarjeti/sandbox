@@ -1,0 +1,30 @@
+timezone: "Europe/Budapest"
+
+locales:
+    - en_US.UTF-8 UTF-8
+
+nginx:
+    root: /
+
+php:
+    version: 5.5
+    modules: []
+
+mysql:
+    version: 5.5
+    password: admin
+    admin: false
+
+redis:
+    admin: false
+
+mongodb:
+    admin: false
+
+nodejs:
+   packages: []
+
+sass:
+
+beanstalkd:
+    admin: false
