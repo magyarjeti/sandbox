@@ -4,9 +4,9 @@ class jeti::php
 {
   $modules = $jeti::config['php.modules']
 
-  $with_fpm = member($::services, 'nginx') or defined(Class['jeti::nginx'])
+  $with_fpm = member($jeti::services, 'nginx') or defined(Class['jeti::nginx'])
 
-  case $config['php.version'] {
+  case $jeti::config['php.version'] {
     '5.3': {
     }
 

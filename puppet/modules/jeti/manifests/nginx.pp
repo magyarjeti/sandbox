@@ -17,7 +17,7 @@ class jeti::nginx
     }
   }
 
-  if member($::services, 'php') or defined(Class['jeti::php']) {
+  if member($jeti::services, 'php') or defined(Class['jeti::php']) {
     include jeti::nginx::fastcgi
   }
 }
