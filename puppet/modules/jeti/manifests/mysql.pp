@@ -14,7 +14,6 @@ class jeti::mysql
   }
 
   class {'::mysql::server':
-    root_password    => $jeti::config['mysql.password'],
     package_name     => "percona-server-server-$version",
     override_options => {
       'mysqld' => {
@@ -28,7 +27,8 @@ class jeti::mysql
     options    => ['GRANT'],
     privileges => ['ALL'],
     table      => '*.*',
-    user       => 'root@%'
+    user       => 'root@%',
+    require    => Class['::mysql::server']
   }
 
   if $jeti::config['mysql.admin'] {
