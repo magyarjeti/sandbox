@@ -65,3 +65,6 @@ locales:
 
 # beanstalkd:
 #     admin: false
+
+# elasticsearch:
+#     admin: false

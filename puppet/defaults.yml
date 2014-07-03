@@ -27,3 +27,6 @@ sass:
 
 beanstalkd:
     admin: false
+
+elasticsearch:
+    admin: false

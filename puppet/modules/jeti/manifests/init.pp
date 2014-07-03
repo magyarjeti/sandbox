@@ -100,6 +100,10 @@ class jeti
     include jeti::beanstalkd
   }
 
+  if member($services, 'elasticsearch') {
+    include jeti::elasticsearch
+  }
+
   if member($services, 'sass') {
     package {'sass':
       ensure   => present,

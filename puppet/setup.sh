@@ -39,6 +39,7 @@ modules=(
     "maestrodev/wget~1.4.1"
     "magyarjeti/ylib~0.1.0"
     "puppetlabs/vcsrepo~0.2.0"
+    "elasticsearch/elasticsearch~0.4.0"
 )
 
 modulepath="/vagrant/puppet/modules"
