@@ -1,6 +1,6 @@
 # vim: tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
-class jeti::nodejs ($packages = [])
+class jeti::nodejs
 {
   $packages = $jeti::config['nodejs.packages']
 
