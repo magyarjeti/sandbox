@@ -58,3 +58,9 @@ do
         puppet module install $package $version --modulepath=$modulepath
     fi
 done
+
+#------------------------------------------------
+#  Install gem
+#------------------------------------------------
+
+apt-get install rubygems -y -q >/dev/null
